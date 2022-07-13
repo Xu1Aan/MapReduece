@@ -1,9 +1,9 @@
-# MapReduece
+# Java从零实现MapReduece
 感谢Star, 项目等其他问题交流可发[邮件](mailto:toxuan1998@qq.com)
 
 **项目简介:star2:**
 
-本项目为Java从零实现MapReduce中的wordcount案例，应用到的技术由Netty框架。基于Netty实现了简单的wordcount案例。相较于单点MapReduece，分布式需要考虑更多的并发操作，以及不同节点之间的通信协议等因素。通过Netty提供的良好的异步编程、事件驱动能力，简化了网络应用（分布式应用）的编程开发过程。
+本项目为Java从零实现MapReduce中的wordcount案例，应用到的技术有Netty框架。基于Netty实现了简单的wordcount案例。相较于单点MapReduece，分布式需要考虑更多的并发操作，以及不同节点之间的通信协议等因素。通过Netty提供的良好的异步编程、事件驱动能力，简化了网络应用（分布式应用）的编程开发过程。
 
 **项目说明:star:**
 
