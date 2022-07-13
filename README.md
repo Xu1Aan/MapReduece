@@ -13,7 +13,7 @@ master主要负责任务管理，worker负责执行任务
 
 为不同worker分配任务时并发操作的编写时，最为重要的是，需要维护一个节点（worker）的状态链表。表明哪些worker当前可用；同时需要使用信号量保证多段代码不被并发调用。其次，需要基于Netty控制粘包、半包问题，本项目的做法时自定义了一个协议；网络传输需要序列化，在此使用gson序列化。
 
-<img src="E:\项目\MIT6.824\MapReduece\picture\流程图.png" style="zoom:20%;" />
+<img src=".\picture\流程图.png" style="zoom:20%;" />
 
 详细步骤：
 
