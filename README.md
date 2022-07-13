@@ -43,6 +43,8 @@ worker启动地址: `com.xu1an.worker.Worker`
 
 ​	选择Modify -> Allow multiple instances。
 
+结果位于mr-out1.txt中
+
 **last**
 
 目前准备找实习，各位大佬有内推可[联系](mailto:toxuan1998@qq.com)我
